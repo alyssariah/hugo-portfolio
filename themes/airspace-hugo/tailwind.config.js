@@ -7,7 +7,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      'display': ['Barlow Condensed', 'sans-serif'],
+      'display': ['Barlow', 'sans-serif'],
       'body': ['Montserrat', 'sans-serif'],
       "logo": ['Great Vibes', 'cursive']
     },

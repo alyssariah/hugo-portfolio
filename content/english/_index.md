@@ -5,7 +5,7 @@ banner:
   bg_image: "images/home-bg.jpg"
   bg_overlay: true
   title: "Web Design <br/> & Development Services"
-  content: "I love the Web and the work I do. I work closely with our clients to deliver  the best possible solutions for their needs"
+  content: "Hello world! I am full-stack developer and UI/UX designer."
   button:
     enable: true
     label: "Discover My Projects"
@@ -15,8 +15,8 @@ banner:
 about:
   enable: true
   title: "About Me"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  description: "Random facts about me are I have a Golden Retriver/Irish Setter named River, I run half marathons, The Office is one of my favorite TV shows, and I code in my free time."
+  content: "I am a full-stack developer for Compliancy Group, a healthcare compliance software company. I have a passion for UI animations and an interactive user experience. I love finding elegant solutions that balance simplicity, performance, and extensibility."
   image: "images/wrapper-img.png"
 
 
@@ -25,10 +25,7 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "I BELIEVE IN GREAT IDEAS"
-  content: " Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-
-  Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+  content: "My goal as a full stack web developer is to empower individuals and businesses through thoughtfully designed websites customized to meet their unique needs. I am dedicated to finding elegant solutions that balance simplicity, performance, and extensibility. With training in both software engineering and psychology, I believe truly excellent solutions arise from the combination of technical expertise and careful consideration of the user experience.
 
 
   Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
