@@ -1,3 +1,7 @@
+body {
+  overscroll-behavior: none;
+}
+
 ul {
   margin: 0;
   padding-left: 0;
@@ -8,7 +12,7 @@ iframe {
   border: 0;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
@@ -26,7 +30,7 @@ blockquote {
   border-color: $color-primary;
   padding: 20px 40px;
   text-align: left;
-  color: darken( $light, 50.98);
+  color: darken($light, 50.98);
 }
 
 .navbar-toggle .icon-bar {
@@ -48,7 +52,6 @@ input[type="tel"] {
   }
 }
 
-
 .form-control {
   box-shadow: none;
   border-radius: 0;
@@ -59,11 +62,9 @@ input[type="tel"] {
   }
 }
 
-
 .slick-slide {
-  outline: 0
+  outline: 0;
 }
-
 
 // Button Style
 
@@ -76,7 +77,7 @@ input[type="tel"] {
   padding: 14px 35px;
   text-transform: uppercase;
   border-radius: 0;
-  @include transition (all, 0.2s, ease);
+  @include transition(all, 0.2s, ease);
 
   &.btn-icon {
     i {
@@ -92,7 +93,6 @@ input[type="tel"] {
   }
 }
 
-
 .btn-solid-border {
   border: 1px solid $white;
   background: transparent;
@@ -103,7 +103,6 @@ input[type="tel"] {
     background: $color-primary;
   }
 }
-
 
 .btn-transparent {
   @extend .btn-main;
@@ -143,21 +142,11 @@ input[type="tel"] {
   border-radius: 50px;
 }
 
-
 .btn.active:focus,
 .btn:active:focus,
 .btn:focus {
   outline: 0;
 }
-
-
-
-
-
-
-
-
-
 
 .mt-10 {
   margin-top: 20px;
@@ -180,7 +169,7 @@ input[type="tel"] {
 }
 
 .btn:focus {
-  color: darken( $light, 10.9);
+  color: darken($light, 10.9);
 }
 
 .w-100 {
@@ -190,7 +179,6 @@ input[type="tel"] {
 .margin-0 {
   margin: 0 !important;
 }
-
 
 /* preloader */
 
@@ -209,7 +197,7 @@ input[type="tel"] {
 
 .bg-shadow {
   background-color: $white;
-  box-shadow: 0 16px 24px rgba(0, 0, 0, .08);
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.08);
   padding: 20px;
 }
 
@@ -227,13 +215,11 @@ input[type="tel"] {
 
 .bg-primary-darker {
   background: darken($color-primary, 20%);
-
 }
 
 .bg-dark {
   background: #202122;
 }
-
 
 .section {
   padding: 100px 0;
@@ -275,11 +261,10 @@ input[type="tel"] {
 
   p {
     font-style: italic;
-    color: darken( $light, 57.64);
+    color: darken($light, 57.64);
     font-family: $font-secondary;
   }
 }
-
 
 .section-subtitle {
   font-size: 28px;
@@ -294,7 +279,6 @@ input[type="tel"] {
     font-size: 24px;
   }
 }
-
 
 .page-title {
   padding: 100px 0;
@@ -317,7 +301,6 @@ input[type="tel"] {
   }
 }
 
-
 .heading {
   padding-bottom: 60px;
   text-align: center;
@@ -332,18 +315,10 @@ input[type="tel"] {
   p {
     font-size: 18px;
     line-height: 40px;
-    color: lighten( $black, 16.078);
+    color: lighten($black, 16.078);
     font-weight: 300;
   }
 }
-
-
-
-
-
-
-
-
 
 .page-wrapper {
   padding: 70px 0;
@@ -362,11 +337,10 @@ input[type="tel"] {
 
       a {
         font-size: 18px;
-        color: lighten( $black, 20 );
+        color: lighten($black, 20);
         display: inline-block;
         padding: 7px 12px;
         color: $white;
-
       }
 
       .twitter {
@@ -393,14 +367,12 @@ input[type="tel"] {
   }
 }
 
-
-
 .dropdown-slide {
   position: static;
 
-  .open>a,
-  .open>a:focus,
-  .open>a:hover {
+  .open > a,
+  .open > a:focus,
+  .open > a:hover {
     background: transparent;
   }
 
@@ -418,7 +390,7 @@ input[type="tel"] {
     transform: translate(0px, 0px);
     opacity: 1;
     visibility: visible;
-    color: darken( $light, 50.98);
+    color: darken($light, 50.98);
     transform: translateY(0px);
   }
 
@@ -435,7 +407,8 @@ input[type="tel"] {
     visibility: hidden;
     opacity: 0;
     transform: translateY(30px);
-    transition: visibility 0.2s, opacity 0.2s, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+    transition: visibility 0.2s, opacity 0.2s,
+      transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
 
     @include mobile {
       transform: none;
@@ -443,16 +416,13 @@ input[type="tel"] {
   }
 }
 
-
-
-
 .commonSelect {
   margin-left: 10px;
   padding-right: 6px;
   position: relative;
 
   &:before {
-    content: '\f3d0';
+    content: "\f3d0";
     font-family: $font-icon;
     position: absolute;
     right: -4px;
@@ -467,7 +437,7 @@ input[type="tel"] {
     border: none;
     padding: 0;
     height: auto;
-    color: lighten( $black, 33.3 );
+    color: lighten($black, 33.3);
 
     &:focus {
       box-shadow: none;
@@ -509,7 +479,6 @@ input[type="tel"] {
   }
 }
 
-
 .commonAccordion {
   .panel {
     border-radius: 0;
@@ -531,7 +500,7 @@ input[type="tel"] {
       }
 
       a:before {
-        color: lighten( $black, 33.3 );
+        color: lighten($black, 33.3);
         content: "\f209";
         position: absolute;
         right: 25px;
@@ -549,7 +518,6 @@ input[type="tel"] {
   @extend .commonAccordion;
 }
 
-
 .list-circle {
   padding-left: 20px;
 
@@ -557,7 +525,6 @@ input[type="tel"] {
     list-style-type: circle;
   }
 }
-
 
 .play-icon {
   border: 1px solid $border-color;
@@ -571,7 +538,6 @@ input[type="tel"] {
     line-height: 60px;
   }
 }
-
 
 .alert-common {
   border-radius: 0;
@@ -600,8 +566,6 @@ input[type="tel"] {
   }
 }
 
-
-
 .overly {
   position: relative;
 
@@ -614,7 +578,7 @@ input[type="tel"] {
     right: 0;
     width: 100%;
     height: 100%;
-    background: darken($color-primary, 25);
+    background: darken(#fefefe, 25);
     opacity: 0.8;
   }
 }
@@ -623,8 +587,6 @@ input[type="tel"] {
 .owl-theme .owl-dots .owl-dot:hover span {
   background: $color-primary !important;
 }
-
-
 
 #success,
 #error {
@@ -639,16 +601,15 @@ input[type="tel"] {
   }
 }
 
-
 span.cloaked-e-mail:before {
-  content: attr(data-domain) "\0040" attr(data-user);
+  content: attr(data-domain) "\0040"attr(data-user);
   unicode-bidi: bidi-override;
   direction: rtl;
 }
 
 @media (min-width: 992px) {
   .row .no-float {
-      display: table-cell;
-      float: none;
+    display: table-cell;
+    float: none;
   }
 }

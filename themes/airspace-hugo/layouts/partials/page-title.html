@@ -1,10 +1,13 @@
-<section class="page-title bg-2" style="background-image: url('{{ .Params.bg_image | relURL }}');">
+<section
+  class="page-title bg-2"
+  style="background-image: url('{{ .Params.bg_image | relURL }}');"
+>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="block">
-          <h1>{{ .Title }}</h1>
-          <p>{{ .Params.description }}</p>
+        <div class="flex flex-col items-center text-center">
+          <h1 class="text-[36px] font-body my-8 text-black">{{ .Title }}</h1>
+          <!-- <p class="text-body max-w-[800px]">{{ .Params.description }}</p> -->
         </div>
       </div>
     </div>

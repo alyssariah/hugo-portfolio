@@ -1,11 +1,13 @@
-{{ with site.GetPage "/service" }}
-{{ with .Params.service }}
+{{ with site.GetPage "/service" }} {{ with .Params.service }}
 <section class="service">
   <div class="container">
     <div class="row">
-      <div class="section-title">
-        {{ with .title }}<h2 class="section-subtitle">{{ . | markdownify }}</h2>{{ end }}
-        {{ with .description }}<p>{{ . | markdownify }}</p>{{ end }}
+      <div class="section-title flex flex-col items-center">
+        {{ with .title }}
+        <h2 class="section-subtitle">{{ . | markdownify }}</h2>
+        {{ end }} {{ with .description }}
+        <p class="max-w-[800px]">{{ . | markdownify }}</p>
+        {{ end }}
       </div>
     </div>
     <div class="row">
@@ -21,5 +23,4 @@
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}

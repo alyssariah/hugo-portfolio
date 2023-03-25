@@ -1,7 +1,7 @@
 ---
-title: "About Our Company"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "About Me"
+description: "I specialize in creating custom websites that are both beautiful and functional, all at an affordable price point. I am the perfect choice for small businesses looking to establish an online presence."
+bg_image: "images/home-bg.jpg"
 layout: "about"
 draft: false
 
@@ -9,19 +9,17 @@ draft: false
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
-
-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-  velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-  dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  image : "images/about-bg.webp"
+  title : "Affordable web design and development"
+  content : "I received my degree in psychology from ASU and earned a Software Engineering certificate from General Assembly. With training in both software engineering and psychology, I believe truly excellent solutions arise from the combination of technical expertise and careful consideration of the user experience.
+  <br/>
+  <br/>
+  In addition to my web development services, I provide design services with a keen eye for aesthetics and user experience. I can create visually appealing designs that are intuitive and user-friendly, and can incorporate branding elements and design principles into my work. Overall, I can take a project from concept to launch, with a focus on both technical functionality and visual appeal."
 
   button:
     enable : true
-    label : "Download Company Profile"
-    link : "#"
+    label : "Contact me"
+    link : "contact/"
 
   funfacts:
   # funfacts loop
@@ -53,6 +51,13 @@ about:
   - icon : "fas fa-certificate" #https://fontawesome.com/v5.15/icons
     name : "Awards Winner"
     count : "20"
+
+
+
+############################# Service ############################
+service:
+  enable: true
+  # service content comes from "service.md" file
 
 ################################ feature #####################################
 features:
@@ -100,36 +105,29 @@ mission_vision:
   tabs:
   # tab item loop
   - name : "Vision"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+    content : "My vision as a full stack developer is to provide small businesses with the affordable development and design services they need to succeed in today's competitive digital landscape. I believe that every business should have access to high-quality, customized solutions that fit their unique needs and budget. By combining technical expertise with creative design, I aim to help my clients build a strong online presence that engages their customers and drives growth. My goal is to establish long-term partnerships with my clients, providing ongoing support and collaboration to ensure their continued success. Ultimately, I measure my success by the success of my clients, and I strive to make a positive impact on their businesses and their bottom line."
 
   # tab item loop
   - name : "Mission"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+    content : "My goal as a full stack web developer is to empower individuals and businesses through thoughtfully designed websites customized to meet their unique needs. I am dedicated to finding elegant solutions that balance simplicity, performance, and extensibility. With training in both software engineering and psychology, I believe truly excellent solutions arise from the combination of technical expertise and careful consideration of the user experience."
 
   # tab item loop
   - name : "Approach"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
+    content : "Here are some key approaches I keep in mind: 
+    <br/>
+    - User-Centered Design: Put the user at the center of my design process by conducting user research, creating personas, and designing for user needs and goals
+    <br/>
+    - Usability: Design websites that are easy to use and navigate by incorporating clear and consistent navigation, intuitive layouts, and clear calls to action
+    <br/>
+    - Content Strategy: Develop a content strategy that aligns with the user's needs and goals, and create content that is engaging, informative, and optimized for search engines
+    <br/>
+    - Mobile-First Design: Design websites with a mobile-first approach, ensuring that they are optimized for smaller screens and touch interfaces
+    <br/>
+    - Performance: Optimize your website's performance by minimizing HTTP requests, compressing images, and reducing server response time
+    <br/>
+    - Accessibility: Ensure that your websites are accessible to all users, including those with disabilities. Incorporate accessibility standards such as proper use of alt tags for images and captions for videos, keyboard navigation, and color contrast
+    <br/>
+    - Security: Build secure websites by incorporating HTTPS protocol, using strong passwords, and ensuring that your code is up-to-date and secure."
 
 
 ############################# call to action #################################

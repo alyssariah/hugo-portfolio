@@ -1,24 +1,21 @@
 <!-- navigation -->
-<header class="{{if site.Params.navbar_fixed}} sticky top-0 z-10 backdrop-blur-xl backdrop-saturate-150 opacity-95 {{end}} flex items-center justify-center w-[100%] py-0 min-h-[65px]">
+<header
+  class="{{if site.Params.navbar_fixed}} sticky top-0 z-10 backdrop-blur-xl backdrop-saturate-150 opacity-95 {{end}} flex items-center justify-center w-[100%] py-0 min-h-[60px]"
+>
   <!-- navbar -->
-  <nav
-    class="flex items-center justify-between w-[100%] max-w-[1440px] px-4"
-  >
+  <nav class="flex items-center justify-between w-[100%] max-w-[1440px] px-4">
     <div class="navbar-header flex items-center flex-grow-1">
       <!-- navbar toggler -->
-      <button
-        type="button"
-        class="navbar-toggle"
-        data-toggle="collapse"
-        data-target="#navigation"
-        aria-expanded="true"
-      >
+      <button type="button" class="navbar-toggle block lg:hidden">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
       <!-- navbar brand/logo -->
-      <a class="text-[24px] font-logo text-[#5998C5]" href="{{ site.BaseURL | relLangURL }}">
+      <a
+        class="text-[21px] font-body text-primary"
+        href="{{ site.BaseURL | relLangURL }}"
+      >
         Alyssa <span class="text-primary">Jackson</span>
       </a>
     </div>

@@ -1,6 +1,6 @@
 ---
 title: "Latest News"
-description: "this is meta description"
+description: "My collection of blog posts covers a wide range of topics, from the latest trends in web design to tips and tricks for optimizing your website's performance. I provide both in-depth analysis and practical advice."
 draft: false
-bg_image: "images/feature-bg.jpg"
+bg_image: "images/home-bg.jpg"
 ---
