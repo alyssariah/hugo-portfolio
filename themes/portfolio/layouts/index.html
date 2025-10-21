@@ -16,7 +16,7 @@
           {{ end }} {{ with .button }} {{ if .enable }}
           <a
             href="{{ .link | relLangURL }}"
-            class="btn btn-main animated fadeInUp"
+            class="btn btn-main animated fadeInUp bg-primary rounded-md"
             >{{ .label }}</a
           >
           {{ end }} {{ end }}
@@ -30,10 +30,10 @@
 
 <!-- about -->
 {{ with .Params.about }} {{ if .enable }}
-<section class="about section">
-  <div class="container">
+<section class="about section d-flex justify-center w-100">
+  <div class="container max-w-screen-xl">
     <div class="row">
-      <div class="col-md-7 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="section-title">
             {{ with .title }}
@@ -47,7 +47,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-6 col-sm-12">
         <div class="block">
           <!-- <img src="{{ .image | relURL }}" class="img-responsive" alt="Img"> -->
           <!-- <iframe
@@ -55,11 +55,21 @@
             width="100%"
             height="350px"
           ></iframe> -->
+          <!-- <iframe 
+            src="https://lottie.host/embed/1f9f6971-986e-42ed-b469-f4563a50b3bc/ZrFTqBiSOL.lottie"      
+            width="100%"
+            height="350px">
+          </iframe> -->
           <iframe
             src="https://embed.lottiefiles.com/animation/97724"
             width="100%"
-            height="350px"
+            height="450px"
           ></iframe>
+          <!-- <iframe
+            src="https://lottie.host/embed/01fe16f9-d82e-494a-ba32-2a57362da605/DCp39AvfB9.lottie"
+            width="100%"
+            height="350px"
+          ></iframe> -->
         </div>
       </div>
     </div>
@@ -103,7 +113,7 @@
 <!-- funfacts -->
 {{ with .Params.funfacts }} {{ if .enable }}
 <section class="testimonial">
-  <div class="container">
+  <div class="container max-w-screen-xl">
     <div class="row">
       <div class="section-title flex flex-col items-center">
         {{ with .title }}
@@ -129,22 +139,16 @@
       </div>
       <div class="col-md-5 col-md-offset-1">
         <div class="testimonial-carousel text-center">
-          <div class="testimonial-slider owl-carousel">
+          <div class="testimonial-slider owl-carousl">
             {{ range .testimonial_slider }}
             <div class="flex items-center justify-center">
-              <!-- <i class="fas fa-quote-left"></i>
-              {{ with .content }}{{ . | $.Page.RenderString (dict "display"
-              "block") }}{{ end }} -->
               <div class="flex items-center justify-center">
                 <img
                   src="{{ .image | relURL }}"
                   alt="fun pictures of me"
-                  class="max-h-[280px]"
+                  class="w-100 object-cover"
                 />
-                <!-- <p>
-                  <span>{{ .name | markdownify }}</span> {{ .designation |
-                  markdownify }}
-                </p> -->
+    
               </div>
             </div>
             {{ end }}

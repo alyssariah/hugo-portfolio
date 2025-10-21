@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
+title: "Tailwind Bytes"
 description: "this is meta description"
 draft: false
 image : "images/portfolio/work6.jpg"
 bg_image: "images/feature-bg.jpg"
-category: "Video"
+category: ["Full-stack"]
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
+title: "Next.js Sanity Template"
 description: "this is meta description"
 draft: false
 image : "images/portfolio/work5.jpg"
 bg_image: "images/feature-bg.jpg"
-category: "Illustration"
+category: ["Full-stack"]
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

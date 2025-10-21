@@ -45,48 +45,41 @@ featured_service:
 ############################# Service ###############################
 service:
   enable: true
-  title: "My Services"
-  description: "My services include designing user interfaces, creating wireframes and prototypes, developing front-end components, implementing back-end functionality, integrating APIs, and deploying web applications to production. I am knowledgeable in current technologies and trends in web development and design, including responsive design, mobile-first development, and cloud computing."
+  title: "My Skills"
+  description: "I help build and maintain web applications and infrastructure that are scalable, reliable, and efficient."
   service_item:
-    # service item loop
-    - icon: fab fa-figma #https://fontawesome.com/v5.15/icons
-      name: UI/UX Desgin
-      content: "Let's get creative! With figma, I can provide wireframes, mockups, and prototypes for your review."
+    - icon: fas fa-code
+      name: Full-Stack Development
+      content: "Build robust frontend and backend applications with modern frameworks."
 
-    # service item loop
-    - icon: fas fa-code #https://fontawesome.com/v5.15/icons
-      name: Web Development
-      content: "From the frontend to the backend, I can write code with multiple platforms and languages."
+    - icon: fas fa-server
+      name: Cloud & Infrastructure
+      content: "Design and manage cloud systems and serverless services for reliability."
 
-    # service item loop
-    - icon: fas fa-cogs #https://fontawesome.com/v5.15/icons
-      name: Content Management Systems
-      content: "Let's set up the right CMS for your business to keep you running efficiently when content needs to be changed."
+    - icon: fas fa-cogs
+      name: CI/CD & Automation
+      content: "Streamline workflows with automated pipelines, testing, and deployments."
 
-    # service item loop
-    - icon: fas fa-server #https://fontawesome.com/v5.15/icons
-      name: Deployment and Hosting
-      content: "I provide details over recommended hosting sites and systems to deploy code to your hosting provider."
+    - icon: fas fa-bug
+      name: Testing & Quality
+      content: "Integrate testing frameworks to catch issues early and ensure stability."
 
-    # service item loop
-    - icon: fas fa-bug #https://fontawesome.com/v5.15/icons
-      name: Testing
-      content: "Bugs are the worst! I can integrate testing suites into your codebase for greater code stability."
+    - icon: fas fa-database
+      name: API & Database Integration
+      content: "Design and maintain APIs and databases for smooth system connections."
 
-    # service item loop
-    - icon: fas fa-search #https://fontawesome.com/v5.15/icons
-      name: SEO
-      content: "I can achieve higher search engine rankings, increased visibility, and more traffic to your website."
+    - icon: fas fa-tools
+      name: Developer Tools & Workflows
+      content: "Build tools and dashboards that improve team collaboration and insight."
 
-    # service item loop
-    - icon: fas fa-globe-asia #https://fontawesome.com/v5.15/icons
-      name: Accessibility
-      content: "I can ensure that your website meets the latest web accessibility guidelines and standards."
+    - icon: fas fa-cloud-upload-alt
+      name: Deployment & Hosting
+      content: "Deploy applications seamlessly with monitoring and scalable setups."
 
-    # service item loop
-    - icon: fas fa-chart-line #https://fontawesome.com/v5.15/icons
-      name: Analytics
-      content: "Let's setup analytics to provide valuable insights into performance, user behavior, and marketing."
+    - icon: fab fa-figma
+      name: UI/UX Design
+      content: "Create intuitive interfaces, wireframes, and prototypes."
+
 
 ############################# call to action #################################
 cta:

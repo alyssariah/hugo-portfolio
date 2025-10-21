@@ -5,7 +5,7 @@ banner:
   bg_image: "images/home-bg.jpg"
   bg_overlay: true
   title: "Web Design <br/> & Development Services"
-  content: "Affordable web design and development services for small businesses!"
+  content: "Crafting clean, modern websites that deliver results."
   button:
     enable: true
     label: "Discover My Projects"
@@ -15,9 +15,9 @@ banner:
 about:
   enable: true
   title: "About Me"
-  description: "I received my degree in psychology from ASU and earned a Software Engineering certificate from General Assembly. With training in both software engineering and psychology, I believe truly excellent solutions arise from the combination of technical expertise and careful consideration of the user experience."
-  content: "In addition to my web development services, I provide design services with a keen eye for aesthetics and user experience. I can create visually appealing designs that are intuitive and user-friendly, and can incorporate branding elements and design principles into my work. Overall, I can take a project from concept to launch, with a focus on both technical functionality and visual appeal."
-  image: "images/wrapper-img.png"
+  description: "Hi, I’m a Senior Application Engineer who enjoys building systems that make developers’ lives easier. I started out studying psychology, which gave me a deep understanding of how people think and solve problems. That perspective now informs the tools, pipelines, and infrastructure I create to help teams work more efficiently."
+  content: "I’ve worked across the full stack, from frontends to backends, and now focus on cloud-native systems that help teams ship faster with confidence. I’m proactive, a fast learner, and I take pride in creating solutions that combine stability with speed. And yes, I do it all with a strong cup of coffee in hand. ☕"
+  image: "images/psychology.jpg"
 
 
 ######################### Portfolio ###############################
@@ -25,10 +25,10 @@ portfolio:
   enable: true
   bg_image: "images/feature-bg.jpg"
   title: "I BELIEVE IN QUALITY WORK"
-  content: "My goal as a full stack web developer is to empower individuals and businesses through thoughtfully designed websites customized to meet their unique needs. I am dedicated to finding elegant solutions that balance simplicity, performance, and extensibility. With training in both software engineering and psychology, I believe truly excellent solutions arise from the combination of technical expertise and careful consideration of the user experience.
+  content: "I focus on cloud-native development and DevOps practices that help teams deliver fast, reliable, and secure software. I’ve built serverless architectures, automated deployments, and testing pipelines that balance speed with stability. My psychology background also helps me create collaborative, resilient teams where strong technical foundations meet human-centered problem solving.
 
 
-  Some of my skills include Javascript, HTML, CSS, React, Typescript, Node, Express, PostgreSQL, and Figma. I like to keep in mind accessibility, SEO, performance, and best practices while working on my projects. 
+  Technologies: AWS (Lambda, API Gateway, SQS, CDK), GitHub Actions, React, TypeScript, Node.js, PostgreSQL, MongoDB, Playwright.
   "
   button:
     enable: true
@@ -46,18 +46,18 @@ service:
 cta:
   enable: true
   bg_image: "images/call-to-action-bg.jpg"
-  title: "I design and develop delightful digital experiences."
+  title: "Fast. Reliable. Scalable."
   content: "Read more about what I do and my philosophy of design. Judge for yourself with the work and results I’ve achieved for other clients, and meet a highly experienced developer who just loves to design."
   button:
     enable: true
-    label: "Tell Me Your Story"
+    label: "Drop me a note"
     link: "contact/"
 
 ############################# Funfacts ###############################
 funfacts:
   enable: true
   title: "Fun Facts About Me"
-  description: "I absolutely love my Irish Setter/Golden Retriever named River. My husband, River, and I will go on adventures including hiking, backpacking, and kayaking. I also run half marathons and River helps me train. Lastly, I enjoy watching tv shows! Some of my favorites include The Office, Lost, and Stranger Things."
+  description: "I’ve completed both half and full marathons, so endurance and focus are strengths in both code and life. I love backpacking and kayaking with my husband and our dogs, and I’m a big fan of The Office and Stranger Things — balance matters, even for engineers. And of course, I start every debugging session with a good cup of coffee. Always. ☕"
 
   funfact_item:
   # funfacts item loop
@@ -66,9 +66,9 @@ funfacts:
     count: "99"
 
   # funfacts item loop
-  - icon: "fas fa-keyboard" #https://fontawesome.com/v5.15/icons
-    name: "Article Written"
-    count: "1"
+  - icon: "fas fa-hiking" #https://fontawesome.com/v5.15/icons
+    name: "Backpacking Trips"
+    count: "20"
 
   # funfacts item loop
   - icon: "fas fa-glasses" #https://fontawesome.com/v5.15/icons
@@ -86,19 +86,19 @@ funfacts:
   - name: ""
     image: "images/fun/camping-fam.webp"
     designation: ""
-    content: "Client quotes coming soon!"
+    content: "There’s no cloud. It’s just someone else’s computer."
 
   # testimonial item loop
   - name: ""
     image: "images/fun/running-5k.webp"
     designation: ""
-    content: "Client quotes coming soon"
+    content: "I would tell you a joke about recursion… but you’ll have to wait until you get it."
 
   # testimonial item loop
   - name: ""
     image: "images/fun/kayak-river.webp"
     designation: ""
-    content: "Client quotes coming soon."
+    content: "There’s no place like 127.0.0.1."
 
 
 ---

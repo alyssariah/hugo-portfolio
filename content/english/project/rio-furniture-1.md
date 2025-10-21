@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
+title: "Splash n Dash"
 description: "this is meta description"
 draft: false
 image : "images/portfolio/work1.jpg"
 bg_image: "images/feature-bg.jpg"
-category: [ "UI/UX Design", "Video" ]
+category: ["Full-stack"]
 information:
   - label : "Client"
     info : "Jannie Kelonsky"

@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/airspace/examplesite/"
+baseURL = "https://demo.gethugothemes.com/portfolio/"
 title = "Alyssa Jackson | Web Developer and Designer"
-theme = "airspace-hugo"
+theme = "portfolio"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone = "UTC"
 # post pagination

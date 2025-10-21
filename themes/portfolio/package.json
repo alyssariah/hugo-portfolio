@@ -1,7 +1,7 @@
 {
-  "name": "airspace-hugo",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "<h1 align=center>Airspace Hugo</h1> <p align=center>This theme is suitable for a wide variety of businesses, including marketing, photography, and development enterprises.</p>",
+  "description": "<h1 align=center>Portfolio</h1> <p align=center>This theme is suitable for a wide variety of businesses, including marketing, photography, and development enterprises.</p>",
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./tailwind.css -o ./assets/style.css",

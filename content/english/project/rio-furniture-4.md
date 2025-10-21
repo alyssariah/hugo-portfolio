@@ -1,5 +1,5 @@
 ---
-title: "Rio Furniture"
+title: "Puppy clickers"
 description: "this is meta description"
 draft: false
 image : "images/portfolio/work4.jpg"

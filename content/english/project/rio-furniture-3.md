@@ -1,10 +1,10 @@
 ---
-title: "Rio Furniture"
+title: "Women in STEM"
 description: "this is meta description"
 draft: false
 image : "images/portfolio/work3.jpg"
 bg_image: "images/feature-bg.jpg"
-category: "Video"
+category: "UI/UX Design"
 information:
   - label : "Client"
     info : "Jannie Kelonsky"
