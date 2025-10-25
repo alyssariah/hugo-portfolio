@@ -16,15 +16,11 @@ name = "Project"
 url = "project/"
 weight = 3
 
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 4
   
 [[main]]
 name = "Contact"
 url = "contact/"
-weight = 6
+weight = 4
 
 
 # footer menu
@@ -37,11 +33,6 @@ weight = 2
 name = "Project"
 url = "project/"
 weight = 3
-
-[[footer]]
-name = "Blog"
-url = "blog/"
-weight = 4
 
 [[footer]]
 name = "Contact"
