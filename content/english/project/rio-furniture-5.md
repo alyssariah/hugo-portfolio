@@ -2,7 +2,7 @@
 title: "Next.js Sanity Template"
 description: "this is meta description"
 draft: false
-image : "images/portfolio/work5.jpg"
+image : "images/projects/nextjs-template.png"
 bg_image: "images/feature-bg.jpg"
 category: ["Full-stack"]
 information:

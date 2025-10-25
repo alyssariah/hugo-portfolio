@@ -2,7 +2,7 @@
 title: "Delano Bats"
 description: "this is meta description"
 draft: false
-image : "images/portfolio/work2.jpg"
+image : "images/projects/delano-bats.png"
 bg_image: "images/feature-bg.jpg"
 category: "Full-stack"
 information:

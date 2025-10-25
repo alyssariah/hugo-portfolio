@@ -9,7 +9,7 @@
     <div class="row">
       <div class="col-md-8">
         {{ with .Params.image }}
-        <img class="img-responsive w-100" src="{{ . | relURL }}" alt="">
+        <img class="img-responsive w-100 object-cover object-center" src="{{ . | relURL }}" alt="">
         {{ end }}
       </div>
       <div class="col-md-4">
