@@ -23,7 +23,6 @@ Delano Bats — eCommerce Website Design & Development
 Delano Bats, a sports equipment company specializing in advanced baseball bat technology, needed a modern website to launch their first product line and showcase their innovation in bat design. The goal was to create a visually striking, performance-driven eCommerce platform that could grow alongside the brand and seamlessly handle online sales.
 
 <br/>
-<br/>
 
 The project began with a design exploration in Figma, focusing on establishing a strong visual identity that reflected Delano’s dedication to precision and craftsmanship. The UI emphasized bold imagery, clean typography, and a high-contrast color palette to mirror the sleek design of their new bat technology. The user experience was crafted to highlight product performance details while maintaining a frictionless shopping journey.
 

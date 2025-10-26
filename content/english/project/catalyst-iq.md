@@ -23,7 +23,6 @@ Catalyst IQ — Marketing Website Design & Development
 Catalyst IQ is a data-driven consulting and analytics company that needed a modern, professional marketing website to showcase their services and thought leadership. The primary goal was to design a clean, high-performing website that could be easily managed and updated by their internal marketing team without requiring ongoing developer support.
 
 <br/>
-<br/>
 
 The project began with wireframing and interface design in Figma, focusing on clarity, credibility, and conversion. The visual language emphasized Catalyst IQ’s analytical expertise through structured layouts, strong typography, and balanced use of whitespace. The result was a design that communicated trust and innovation while remaining visually minimal and approachable.
 
